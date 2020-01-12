@@ -1,0 +1,82 @@
+.parent{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-template-rows: 100%;
+
+}
+
+.main{ 
+    background: purple;
+    text-align: center;
+    padding: 20px 20px 10px 10px;
+}
+
+.main-2{
+    background:black;
+    color: purple;
+    padding: 50px;
+    padding-left: 300px;
+    padding-top:50px;
+} 
+.img-wrapper{
+    width: 220px;
+    height: 172px;
+    overflow: hidden;
+}
+.tex{
+    padding-top: 75px;
+    margin-left: -20px
+}
+.my-list{
+    list-style: none;
+}
+
+.my-link{
+    color: black !important;
+    font-size: 1.4em;
+}
+
+.my-img{
+    border-radius: 15px; 
+
+}
+.row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.card{
+     border: 1px solid purple;
+     margin: 10px;
+}
+.card-info-wrapper{
+    padding: 5px
+}
+.card-img-wrapper{
+    overflow: hidden;
+}
+.btn{
+    background-color: purple; 
+    color: black;
+    border-radius:  1px solid purple;
+    height: 30px;
+    overflow: hidden;
+    font-style: italic;
+}
+.icons{
+    font-size:30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.my-icons{
+    font-size: 20px
+}
+.contact-icon{
+    font-size:30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
